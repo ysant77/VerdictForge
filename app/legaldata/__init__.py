@@ -1,0 +1,1 @@
+"""Legal data pipeline package."""

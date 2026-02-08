@@ -1,0 +1,42 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Output of tests and coverage
+.coverage
+.tox/
+.pytest_cache/
+
+# Distributions and packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+# This is a common practice to ignore the entire environment folder
+# so each developer can manage their own local one
+app/.venv/
+app/data
+app/.pytest_cache
+venv/
+.venv/
+env/
+.env/
+
+# Editor/IDE-specific files
+# Add these if you use specific editors (VS Code, PyCharm, etc.)
+.vscode/        # VS Code
+.idea/          # PyCharm
+*.swp           # Vim swap files
+.DS_Store       # macOS-specific files
+
+# OS-specific files
+# Windows image file caches
+Thumbs.db
+# Linux trash folder
+.Trashes
+
+# Environment variables and secrets
+.env            # conventional name for file containing environment variables
+secrets.toml    # Streamlit secrets
